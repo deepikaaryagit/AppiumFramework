@@ -65,6 +65,7 @@ public class LoginTest {
 
 	@Test
 	public void invalidUserName() {
+		//Master Branch 
 		Base base = new Base();
 		loginPage.enterUserName(loginUsers.getJSONObject("invalidUser").getString("username"))
 				.enterPassword(loginUsers.getJSONObject("invalidUser").getString("password")).clickLogin();
