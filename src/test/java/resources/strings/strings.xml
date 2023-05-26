@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="err_invalid_user">Username and password do not match any user in this service.</string>
+</resources>
